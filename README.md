@@ -1,56 +1,36 @@
-# ARiseFit-fitness-app
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## 📌 Project Title:
-**Implementing Fitness Application with Artificial Intelligence using Augmented Reality**
+## Getting Started
 
-## 🧠 Overview
-This project is an innovative fitness application that integrates **Artificial Intelligence (AI)**, **Augmented Reality (AR)**, and **Optical Character Recognition (OCR)** to deliver **personalized health and fitness plans**. It dynamically analyzes a user's **BMI**, **blood sugar**, **thyroxine**, and **cholesterol levels** (extracted from medical PDF reports) and provides:
+First, run the development server:
 
-- Custom diet and workout recommendations
-- AR-powered exercise demonstrations
-- Real-time posture correction
-- A downloadable personalized health plan in PDF format
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## 🚀 Features
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- 📥 PDF health report upload and OCR extraction
-- 📊 BMI calculation and health condition analysis
-- 🤖 AI-based diet & workout plan generation
-- 🧍‍♂️ AR exercise guidance and posture correction
-- 📄 Exportable personalized PDF health plans
-- 📈 User dashboard with progress tracking
-- 📚 Educational resources and fitness community
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## ⚙️ Tech Stack
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-| Technology                    | Purpose                                                                 |
-|------------------------------|-------------------------------------------------------------------------|
-| Python                       | Backend logic, AI/ML models, OCR, PDF generation                        |
-| TensorFlow                   | AI/ML model training for posture analysis and recommendation system     |
-| MediaPipe                    | Real-time pose detection and analysis                                   |
-| Tesseract OCR       | Image preprocessing and health data extraction from PDF reports         |
-| Blender    | 3D AR module for exercise visualization          |
-| React.js                     | Frontend web interface                                                  |
-| Flask                        | REST API development and backend integration                            |
-| PyPDF / ReportLab             | Generating downloadable personalized health plan PDFs                   |
+## Learn More
 
-## 📚 References
-This project is inspired by:
-- Kumar & Kumar (2023) - Hybrid Diet Recommender System
-- Lee (2023) - Meta-Trainer for AR-based posture correction
-- Ray & Saha (2024) - AI-Powered Virtual Fitness Trainer
-- And many more from the literature review in our paper.
+To learn more about Next.js, take a look at the following resources:
 
-## 👨‍💻 Authors
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- Rutuja Dambir — [`rutujadambir105@apsit.edu.in`](mailto:rutujadambir105@apsit.edu.in)
-- Praniti Kale — [`pranitikale71@apsit.edu.in`](mailto:pranitikale71@apsit.edu.in)
-- Kartik Kanchan — [`kartikkanchan30@apsit.edu.in`](mailto:kartikkanchan30@apsit.edu.in)
-- Supervisor: Prof. D.D. Kayande
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## 📄 License
-This project is open-source and available under the [MIT License](LICENSE).
+## Deploy on Vercel
 
----
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-> “Empowering personalized health, one algorithm at a time.”
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
